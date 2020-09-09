@@ -1,0 +1,45 @@
+/* 
+リセットコード 
+　・全要素のボーダーボックス化
+　・a,li要素のスタイル消去
+　・a要素ホバー時のトランジション時間指定
+　・imgタグの幅最適化
+*/
+
+html,body{
+  margin:0;
+  font-family:sans-serif;
+}
+
+html{
+  font-size:62.5%;
+}
+
+*{
+  box-sizing: border-box;
+  margin:0;
+}
+
+a{
+    text-decoration: none;
+    transition: all .6s ease;
+}
+
+a:hover { 
+    transition: all .6s ease;
+    opacity: .6;
+  }
+
+li{
+    list-style: none;
+}
+
+ul{
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    vertical-align: bottom;
+  }
+  
